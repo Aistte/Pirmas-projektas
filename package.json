@@ -1,0 +1,24 @@
+{
+  "name": "nt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chart.js": "^2.7.3",
+    "grunt": "^1.0.3",
+    "grunt-assemble": "^0.6.3",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-svg-sprite": "^1.5.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "compass": "^0.1.1",
+    "handlebars": "^4.1.0"
+  }
+}

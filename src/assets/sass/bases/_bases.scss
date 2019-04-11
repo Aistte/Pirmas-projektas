@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "icons.scss";
+@import "layout.scss";
+@import "utils.scss";
+
+body {
+  margin: 0;
+  background-color: #ababab;
+}
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+h5 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #c29b3e;
+}

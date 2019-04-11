@@ -1,0 +1,23 @@
+.footer {
+  .container {
+    padding-top: 68px;
+    .nav-bar__lists {
+      margin: 0;
+      line-height: 32px;
+      padding: 0;
+      &__nav {
+        color: #222a31;
+      }
+      &__nav:hover {
+        color: #a67a4b;
+        transition: color 0.4s ease 0s;
+        text-decoration: none;
+      }
+    }
+
+    li {
+      list-style: none;
+      line-height: 32px;
+    }
+  }
+}

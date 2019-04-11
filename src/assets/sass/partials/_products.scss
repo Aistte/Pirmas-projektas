@@ -1,0 +1,51 @@
+.container-fluid {
+  background-color: #f0f0f0;
+  .photo {
+    background-image: url(../images/shoes.jpg);
+    height: 400px;
+    background-position: 40% 50%;
+    background-size: cover;
+    // padding-top: 15px;
+    color: transparent;
+
+    &--2 {
+      background-image: url(../images/accesories.jpg);
+    }
+
+    &--3 {
+      background-image: url(../images/tops.jpg);
+    }
+
+    h4 {
+      letter-spacing: 8px;
+    }
+
+    h4:hover {
+      filter: brightness(200%);
+      background: rgb(2, 2, 2);
+      opacity: 0.8;
+      color: #fff;
+      height: 100%;
+      line-height: 200px;
+    }
+  }
+  // .photo:hover {
+  //   filter: brightness(50%);
+  //   color: #fff;
+  // }
+  a:hover {
+    text-decoration: none;
+  }
+}
+.container-fluid {
+  .text-box {
+    height: 400px;
+    background-color: #f8f8f8;
+
+    h5 {
+      text-align: center;
+      line-height: 400px;
+      color: #a67a4b;
+    }
+  }
+}

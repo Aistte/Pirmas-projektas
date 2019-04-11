@@ -1,0 +1,28 @@
+.container {
+  .col-12 {
+    padding: 0;
+  }
+
+  .nav-bar__lists {
+    margin: 0;
+    line-height: 120px;
+    &__link {
+      margin-left: 24px;
+      color: #222a31;
+      text-decoration: none;
+    }
+    &__link:hover {
+      color: #a67a4b;
+      transition: color 0.4s ease 0s;
+    }
+  }
+
+  button {
+    width: 255px;
+    border-radius: 0.25rem;
+    line-height: 34px;
+    color: #495057;
+    background: #f0f0f0;
+    border: 0;
+  }
+}
